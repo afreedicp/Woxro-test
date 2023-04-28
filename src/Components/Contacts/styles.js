@@ -21,6 +21,7 @@ export const ContactStyles = styled.div`
     justify-content: space-between;
 
     button {
+      font-weight: 600;
       width: 160px;
       color: #fff;
       height: 3.5rem;

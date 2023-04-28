@@ -20,6 +20,7 @@ export const BackgroundStyles = styled.div`
       align-items: center;
       h2 {
         font-size: 5rem;
+        font-weight: bold;
         color: #fff;
         word-break: break-word;
         max-width: 80%;

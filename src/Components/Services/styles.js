@@ -5,6 +5,7 @@ export const ServiceStyles = styled.div`
     color: #000;
   }
   .serviceContainer {
+    padding: 2rem;
     font-size: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;

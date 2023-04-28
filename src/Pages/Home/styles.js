@@ -6,6 +6,7 @@ export const LandingPageStyles = styled.div`
     width: 1180px;
     height: 100vh;
     overflow: auto;
+    margin-bottom: 10px;
     ::-webkit-scrollbar {
       width: 0px;
     }
@@ -32,6 +33,7 @@ export const LandingPageStyles = styled.div`
   }
   h6 {
     color: #585858;
+    font-weight: 600;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     line-height: 1.43;

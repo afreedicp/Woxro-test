@@ -26,7 +26,7 @@ const index = () => {
           <Navbar />
         </div>
         <Background />
-        <div className='d-flex justify-content-center p-4'>
+        <div className='d-flex justify-content-center p-5'>
           <h6>services we deliver</h6>
         </div>
         <Services />
