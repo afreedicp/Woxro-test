@@ -1,6 +1,7 @@
 import React from 'react';
 import Background from '../../Components/Background';
 import Navbar from '../../Components/Navbar';
+import Services from '../../Components/Services';
 import { LandingPageStyles } from './styles';
 const index = () => {
   return (
@@ -27,6 +28,7 @@ const index = () => {
         <div className='d-flex justify-content-center p-4'>
           <h6>services we deliver</h6>
         </div>
+        <Services />
       </div>
     </LandingPageStyles>
   );

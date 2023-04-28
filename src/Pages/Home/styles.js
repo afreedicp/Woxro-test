@@ -6,6 +6,13 @@ export const LandingPageStyles = styled.div`
     width: 1180px;
     height: 100vh;
     overflow: auto;
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #a6a6a8;
+      border-radius: 25px;
+    }
   }
   .topHeadContainer {
     color: #fff;
@@ -18,7 +25,7 @@ export const LandingPageStyles = styled.div`
   }
   .logoContainer {
     padding: 16px;
-    height: 4rem;
+    height: 5rem;
     .appLogo {
       width: 12rem;
     }
