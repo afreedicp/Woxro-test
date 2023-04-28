@@ -1,5 +1,6 @@
 import React from 'react';
 import Background from '../../Components/Background';
+import Contacts from '../../Components/Contacts';
 import Navbar from '../../Components/Navbar';
 import Services from '../../Components/Services';
 import { LandingPageStyles } from './styles';
@@ -29,6 +30,9 @@ const index = () => {
           <h6>services we deliver</h6>
         </div>
         <Services />
+        <div className='contactConatiner d-flex align-items-center'>
+          <Contacts />
+        </div>
       </div>
     </LandingPageStyles>
   );

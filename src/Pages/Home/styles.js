@@ -36,4 +36,7 @@ export const LandingPageStyles = styled.div`
     text-transform: uppercase;
     line-height: 1.43;
   }
+  .contactConatiner {
+    width: 100%;
+  }
 `;
