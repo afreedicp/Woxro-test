@@ -60,6 +60,7 @@ export const AdminPageStyles = styled.div`
   .inputLabel {
     position: absolute;
     top: -30px;
+    font-weight: 600;
   }
   .inputContainer {
     outline: none;
