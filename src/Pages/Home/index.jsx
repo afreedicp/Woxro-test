@@ -29,10 +29,14 @@ const Home = () => {
             src={'https://woxro.com/public/assets/png/woxrologo.png'}
             alt='logo'
           />
+          <div className='mobileNavbarContainer'>
+            <i class='fa-solid fa-bars fa-xl'></i>
+          </div>
         </div>
         <div className='navbarContainer'>
           <Navbar />
         </div>
+
         <Background />
         <div className='d-flex justify-content-center p-5'>
           <h6>services we deliver</h6>

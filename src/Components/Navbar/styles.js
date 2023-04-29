@@ -27,4 +27,15 @@ export const NavStyles = styled.div`
       }
     }
   }
+  @media screen and (max-width: 1000px) {
+    .navContent {
+      button {
+        width: 10%;
+        max-width: 10%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+  }
 `;

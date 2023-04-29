@@ -26,6 +26,9 @@ export const LandingPageStyles = styled.div`
   }
   .logoContainer {
     padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 5rem;
     .appLogo {
       width: 12rem;
@@ -58,6 +61,9 @@ export const LandingPageStyles = styled.div`
       background: #b9cad7c9;
     }
   }
+  .mobileNavbarContainer {
+    display: none;
+  }
   @media screen and (max-width: 1200px) {
     .pageContainer {
       width: 100%;
@@ -66,6 +72,11 @@ export const LandingPageStyles = styled.div`
   @media screen and (max-width: 880px) {
     .navbarContainer {
       display: none;
+    }
+    .mobileNavbarContainer {
+      display: block;
+      right: 30px;
+      cursor: pointer;
     }
     .topHeadContainer {
       display: none;
