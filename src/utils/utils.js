@@ -42,3 +42,14 @@ export const services = [
       'We build sustainable, brands by connecting your product and message with audiences that would want to get your and or services. We nurture ideas to transform ands through creativity focussed on growth. ',
   },
 ];
+export const details = [
+  { id: 1, value: "Kerala's Leading Web Design Company", textType: 'heading' },
+  { id: 2, value: '  Leshore Business Park, Thrissur', textType: 'location' },
+  { id: 3, value: '  +91 487 2080 212', textType: 'number' },
+  {
+    id: 4,
+    value:
+      'Global Web Designing Company That Provides Full-cycle Software Development Services, E-commerce & Mobile App Development Services.',
+    textType: 'subHeading',
+  },
+];

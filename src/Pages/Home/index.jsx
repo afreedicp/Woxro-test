@@ -1,18 +1,26 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import Background from '../../Components/Background';
 import Contacts from '../../Components/Contacts';
 import Navbar from '../../Components/Navbar';
 import Services from '../../Components/Services';
+import { selectDetails } from '../../Store/detailsSlice';
 import { LandingPageStyles } from './styles';
-const index = () => {
+const Home = () => {
+  const navigate = useNavigate();
+
+  const details = useSelector(selectDetails);
   return (
     <LandingPageStyles>
       <div className='pageContainer'>
         <div className='topHeadContainer'>
-          <span>Hirindsdg software developer</span>
+          <span>
+            <b>Now Hiring</b> : Looking for a job in Full Stack Development?{' '}
+          </span>
           <div>
-            <span>234234234234</span>
-            <span>india, maha rashtra</span>
+            <span className='me-4'>{details.number ? details.number : ''}</span>
+            <span>{details.location ? details.location : ''}</span>
           </div>
         </div>
         <div className='logoContainer'>
@@ -22,7 +30,7 @@ const index = () => {
             alt='logo'
           />
         </div>
-        <div>
+        <div className='navbarContainer'>
           <Navbar />
         </div>
         <Background />
@@ -33,9 +41,16 @@ const index = () => {
         <div className='contactConatiner d-flex align-items-center'>
           <Contacts />
         </div>
+        <button
+          className='navigateButton'
+          type='button'
+          onClick={() => navigate('/admin')}
+        >
+          Admin
+        </button>
       </div>
     </LandingPageStyles>
   );
 };
 
-export default index;
+export default Home;

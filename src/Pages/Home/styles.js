@@ -41,4 +41,34 @@ export const LandingPageStyles = styled.div`
   .contactConatiner {
     width: 100%;
   }
+  .navigateButton {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    color: #1a3e58;
+    width: 80px;
+    font-weight: 600;
+    height: 50px;
+    background: #3c3c3c8a;
+    border-radius: 8px;
+    border: 3px solid #b8dffb;
+    cursor: pointer;
+    z-index: 4;
+    :hover {
+      background: #b9cad7c9;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .pageContainer {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 880px) {
+    .navbarContainer {
+      display: none;
+    }
+    .topHeadContainer {
+      display: none;
+    }
+  }
 `;

@@ -30,4 +30,15 @@ export const ContactStyles = styled.div`
       border: 1px solid #fff;
     }
   }
+  @media screen and (max-width: 880px) {
+    .contactDiv {
+      display: block !important;
+    }
+    .buttonsContainer {
+      width: 100%;
+    }
+    .conactHead {
+      padding-top: 30px;
+    }
+  }
 `;

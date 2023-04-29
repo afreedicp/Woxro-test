@@ -7,12 +7,12 @@ export const BackgroundStyles = styled.div`
     height: 550px;
     width: 100%;
     display: flex;
-
     font-size: 16px;
     align-items: center;
     background-size: cover;
     .headingDiv {
       height: 100%;
+      width: 100%;
       font-family: 'Poppins', sans-serif;
       display: flex;
       flex-direction: column;

@@ -1,7 +1,5 @@
 import { ServiceCardStyles } from './styles';
-import { useNavigate } from 'react-router-dom';
 const ServiceCard = ({ data }) => {
-  const navigate = useNavigate();
   return (
     <ServiceCardStyles>
       <div className='cardDiv' style={{ background: data.color }}>
